@@ -1,0 +1,234 @@
+.stf {
+  background-color: #0c1821;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.stuff {
+  background-color: #257057;
+  line-height: normal;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+}
+
+div.floatclass {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #1b2a41;
+}
+
+input {
+  height: 30px;
+  width: 200px;
+}
+
+.lists {
+  padding: 30px;
+}
+
+.shape {
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+}
+
+.sides {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.loble {
+  background-color: rgb(0, 0, 0);
+  border-radius: 20px;
+  width: 16.6%;
+}
+
+p {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 25px;
+  color: #ccc9dc;
+  line-height: normal;
+  text-align: center;
+  padding: 7px;
+}
+
+.notepad {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.sent {
+  display: flex;
+  justify-content: center;
+}
+
+#pop {
+  background-color: rgb(0, 0, 0);
+  border-radius: 20px;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 35px;
+  text-align: center;
+  color: #ffffff;
+  height: 500px;
+  width: 500px;
+}
+
+label {
+  display: flex;
+  justify-content: center;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 45px;
+  color: #ffffff;
+}
+
+.pencil {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.eraser {
+  height: 20px;
+  width: 50px;
+  border-radius: 20px 20px 0px 0px;
+  border-bottom: 16px solid #eb5d94;
+  background-color: #eb5d94;
+}
+
+.metal {
+  height: 10px;
+  width: 50px;
+  border-bottom: 16px solid #777777;
+  background-color: #777777;
+}
+
+.shaft {
+  height: 100px;
+  width: 50px;
+  border-bottom: 16px solid #f5ab21;
+  background-color: #f5ab21;
+}
+
+.wood {
+  height: 0px;
+  width: 0px;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-top: 30px solid #ebaf62;
+}
+
+.tip {
+  height: 0px;
+  width: 0px;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 15px solid #000000;
+  position: relative;
+  top: -12px;
+}
+
+.lists {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #1b2a41;
+  border-radius: 5px;
+  margin: 5px 0;
+}
+
+.lists input[type="checkbox"] {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.lists input[type="text"] {
+  flex-grow: 1;
+  height: 30px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.lists input[type="text"]:focus {
+  outline: none;
+  border-color: #4caf50;
+}
+
+.lists button {
+  margin-left: 5px;
+  padding: 5px 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.lists button:hover {
+  background-color: #45a049;
+}
+
+.lists .delete {
+  background-color: #eb5d94;
+}
+
+.lists .delete:hover {
+  background-color: #d95b8d;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  padding: 10px;
+  background-color: #2b3a55;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.box form {
+  display: flex;
+  width: 100%;
+}
+
+.box input[type="text"] {
+  flex-grow: 1;
+  height: 40px;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+.box input[type="text"]:focus {
+  border-color: #4caf50;
+  outline: none;
+}
+
+.box button {
+  margin-left: 10px;
+  padding: 0 15px;
+  height: 52px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.box button:hover {
+  background-color: #45a049;
+}
