@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes and Drawing</title>
+    <link rel="stylesheet" href="note.css">
+</head>
+
+<body>
+    <div class="note-draw-container">
+        <div class="note-area">
+            <h2 class="black">Notes</h2>
+            <textarea id="noteInput" rows="10" placeholder="Write your notes here..."></textarea>
+        </div>
+
+        <div class="draw-area" class="black">
+            <h2 class="black">Draw</h2>
+            <canvas id="drawingPad"></canvas>
+            <div class="controls" class="black">
+                <label for=" colorPicker">Color:</label>
+                <input type="color" id="colorPicker" value="#000000">
+                <label for="thicknessSlider">Thickness:</label>
+                <input type="range" id="thicknessSlider" min="1" max="10" value="2">
+                <button id="clearButton">Clear</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="note.js"></script>
+</body>
+
+</html>
